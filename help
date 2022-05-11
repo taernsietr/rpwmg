@@ -1,0 +1,10 @@
+passmag, a password manager study project by Thalles Rodrigues
+version 2.0 (Rust)
+
+rp <ref>:          attempts to retrieve password from ref
+rp -h:             shows this help text
+rp -l:             show all available references
+rp -l <ref>:       shows all references like <ref>
+rp -n <ref>:       generate a new random password for <ref>
+rp -u <ref> <pw>:  update <ref> with <pw>
+rp -x <ref>:       output password to stdout
